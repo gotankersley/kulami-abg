@@ -1,0 +1,70 @@
+#board {
+    border: 2px solid #000;
+    border-collapse: collapse;	
+} 
+
+#board td{
+	height: 80px;
+	width: 80px;
+}
+
+#board .pin {
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: arial, helvetica;
+	margin-left: 20px;
+}
+
+.pinOn {
+	color: red;
+}
+.pinOn:after {
+	content: "O";
+}
+
+#outTiles {
+	vertical-align: top;
+}
+
+.tile0 {background-color: #F0F8FF}	
+.tile1 {background-color: #FAEBD7}	
+.tile2 {background-color: #7FFFD4}	
+.tile3 {background-color: #8A2BE2}	
+.tile4 {background-color: #5F9EA0}
+.tile5 {background-color: #7FFF00}	
+.tile6 {background-color: #DC143C}	
+.tile7 {background-color: #8FBC8F}	
+.tile8 {background-color: #DCDCDC}	
+.tile9  {background-color: #808080}
+.tile10 {background-color: #008000}	
+.tile11 {background-color: #e00}
+.tile12 {background-color: #FF00FF}
+.tile13 {background-color: #A0522D}	
+.tile14 {background-color: #FFFF00}
+.tile15 {background-color: #F5F5F5}
+.tile16 {background-color: #333}
+
+.tile0:before {content: "0"}
+.tile1:before {content: "1"}
+.tile2:before {content: "2"}
+.tile3:before {content: "3"}
+.tile4:before {content: "4"}
+.tile5:before {content: "5"}
+.tile6:before {content: "6"}
+.tile7:before {content: "7"}
+.tile8:before {content: "8"}
+.tile9:before {content: "9"}
+.tile10:before {content: "10"}
+.tile11:before {content: "11"}
+.tile12:before {content: "12"}
+.tile13:before {content: "13"}
+.tile14:before {content: "14"}
+.tile15:before {content: "15"}
+.tile16:before {content: "16"}
+
+#curColor {
+	position: absolute;
+	right: 0;
+	top: 0;
+}

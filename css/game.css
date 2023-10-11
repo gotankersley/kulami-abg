@@ -1,0 +1,40 @@
+/*canvas {
+	border: 1px solid black;
+}
+*/	
+
+#info {
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+	width: 840px;
+}
+
+#turn {
+	font-size: 18pt;
+}
+
+#score {	
+	float: right;
+}
+
+.turn1:after {
+	color: red;
+	content: "Red's turn";
+}
+
+.turn2:after {
+	color: black;
+	content: "Black's turn";
+}
+
+.win1 {
+	color: red;
+}
+
+.win2 {
+	color: black;
+}
+
+.tie {
+	color: gray;
+}

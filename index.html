@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>Kulami</title>
+<link rel="stylesheet" href="css/game.css"/>
+
+<script src="js/lib/jquery-2.1.3.min.js"></script>
+<script src="js/lib/dat.gui.min.js"></script>
+<script src="js/lib/draw-lib.js"></script>
+<script src="js/lib/bit-lib.js"></script>
+
+<script src="js/core/constants.js"></script>
+<script src="js/core/board.js"></script>
+<script src="js/core/bb.js"></script>
+<script src="js/core/players.js"></script>
+<script src="js/ui/menu.js"></script>
+<script src="js/core/game.js"></script>
+
+<script src="js/ai/mc.js"></script>
+<script src="js/ai/ab.js"></script>
+
+<script src="js/init.js"></script>
+
+<link rel="stylesheet" href="css/lib/dat-gui-light.css"/>
+</head>
+<body>
+<div id="info">
+<span id="turn" class="turn1"></span>
+<span id="score">0 - 0</span>
+</div>
+
+<canvas id="mainCanvas" width="800" height="800"></canvas>
+<canvas id="pinCanvas" width="120" height="800"></canvas>
+</body>
+</html>
